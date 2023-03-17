@@ -13,5 +13,5 @@ req.getSession().removeAttribute("user");
 req.getSession().invalidate();
 resp.sendRedirect("/login.jsp");
     }
-    
+
 }
