@@ -16,7 +16,7 @@ public class LoginServlet extends HttpServlet {
        if(req.getSession().getAttribute("user") !=null){
            resp.sendRedirect("/user/hello.jsp");}
        else{
-           resp.sendRedirect("login.jsp");
+           resp.sendRedirect("/login.jsp");
        }
     }
 
